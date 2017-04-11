@@ -14,5 +14,10 @@ class MainActivity : AppCompatActivity() {
             val text = editText.text
             Toast.makeText(this,text,Toast.LENGTH_SHORT).show()
         }
+        val item = Item()
+        item.title = "Title"
+        val title = item.title
+
+
     }
 }
